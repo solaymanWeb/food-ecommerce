@@ -3,13 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --black: #000;
+    --white:#fff;
+}
 a{
     text-decoration: none;
     display: inline-block;
 }
+ul{
+    margin: 0;
+    padding: 0;
+}
 ul li{
     list-style: none;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* 
+font-family: 'Open Sans', sans-serif;
+*/
+
 /*START:: COMMON CSS
 ======================== */
 
@@ -17,7 +32,117 @@ ul li{
 
 /*START:: DOSKTOP HEADER
 ============================= */
+.top-header-area{
+    background-color: var(--black);
+    color: var(--white);
+    padding: 10px 0px;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-header .left-content p{
+  margin: 0;
+  font-size: 13px;
+}
+.top-header .right-content ul li{
+  display: inline-block;
+  padding: 0px 20px;
+  border-right: 1px solid var(--white);
+  line-height: 13px;
+}
+.top-header .right-content ul li a{
+  color: var(--white);
+  font-size: 13px;
+}
 
+header{
+    padding: 30px 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-container .logo{
+    padding-right: 50px;
+}
+.header-container .logo a img{
+    width: 200px;
+}
+.header-container .desktop-menu{
+
+}
+.header-container .cart-area{
+
+}
+.logo-menu-area{
+    display: flex;
+    align-items: center;
+}
+.desktop-menu ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.desktop-menu ul li{
+    margin-right: 20px;
+    position: relative;
+
+}
+.desktop-menu ul li::after{
+  position: absolute;
+  content: " ";
+  width: 0%;
+  height: 2px;
+  background-color: var(--black);
+  left: 0;
+  bottom: -5px;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+}
+.desktop-menu ul li:hover::after{
+  width: 100%;
+}
+.desktop-menu ul li a{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--black);
+ }
+.desktop-menu ul li span{
+    font-size: 13px;
+}
+.desktop-menu ul li > .megamenu{
+ position: absolute;
+ display: block;
+ background-color: gray;
+ width: 1320px;
+ left: 50%;
+ transform: translateX(-50%);
+ -webkit-transform: translateX(-50%);
+ -moz-transform: translateX(-50%);
+ -ms-transform: translateX(-50%);
+ -o-transform: translateX(-50%);
+}
+.cart-area{
+    
+}
+.cart-area .cart{
+    display: flex;
+    align-items: center;
+}
+.cart-area .cart span i{
+   font-size: 18px;
+}
+.cart-area .cart h5{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
 
 
 /*START:: MOBILE MENU
