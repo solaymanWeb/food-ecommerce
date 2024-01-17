@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us</title>
+    <title>Payment</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
@@ -214,73 +214,49 @@
       </div>
     </header>
 
-    <!-- Contact Us :: Description -->
-    <section class="contact">
-      <div class="container my-3">
+    <!-- Payment Us :: Description -->
+    <section class="payment container">
+      <nav 
+        class="breadcrumb-custom"
+        style="--bs-breadcrumb-divider: '>'"
+        aria-label="breadcrumb"
+      >
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active fw-bold" aria-current="page">
+            Payment
+          </li>
+        </ol>
+      </nav>
+      <div>
         <div class="row">
-          <div class="col-md-12">
-            <div class="contact-title">
-              <h2>Get In Touch</h2>
-            </div>
-            <form class="contact-form">
-              <div class="row">
-                <div class="mb-3 col-12 col-md-6">
-                  <label for="name" class="form-label form-required">Name</label>
-                  <input type="text" class="form-control" id="name" />
-                </div>
-                <div class="mb-3 col-12 col-md-6">
-                  <label for="email" class="form-label form-required">Email</label>
-                  <input type="email" class="form-control" id="email" />
-                </div>
-              </div>
-              <div class="mb-3">
-                <label for="phone" class="form-label form-required">Phone Number</label>
-                <input type="tel" class="form-control" id="phone" />
-              </div>
-              <div class="mb-3">
-                <label for="message" class="form-label form-required"
-                  >What’s on your mind?</label
-                >
-                <textarea class="form-control" id="message" rows="4"></textarea>
-              </div>
-              <div class="mb-3">
-                <label for="message" class="form-label form-required"
-                  >Please type the letters and numbers below</label
-                >
-                <input type="tel" class="form-control" id="captcha" />
-                <div class="my-4">
-                  <img class="captha img-fluid me-3" src="assets/images/captha.png" alt="captcha" />
-                  <button>
-                    reload captcha
-                  </button>
-                </div>
-              </div>
-              <button type="submit" class="my-5 mx-auto d-block">
-                SEND MESSAGE
-              </button>
-            </form>
+          <div class="col-12">
+            <img src="assets/images/payment1.png" alt="" class="img-fluid" />
           </div>
-
-          <div class="col-md-12">
-            <p>
-              For any enquiries or further information, please contact Lebanese Food Emporium on 0424 451 115, or contact us by email sales@lebanesefoodemporium.com.au or via the form below and we will get back to you as soon as possible.
-            </p>
-            <p class="my-3">Opening Hours: Open 24 hours</p>
-            <p>
-              <strong
-                >DO NOT SEND ANY EMAILS TO SALES@LEBANESEFOODEMPORIUM.COM.AU AS
-                THE SERVER CURRENTLY IS NOT WORKING AND WE ARE NOT RECEIVING
-                THOSE EMAILS!! THANK YOU!!</strong
-              >
-            </p>
-            <p>
-              For any enquiries or further information, please contact Lebanese
-              Food Emporium on 0424 451 115, or contact us by email
-              <strong>lebanesegroceries2u@gmail.com</strong> or via the form
-              above, and we will get back to you as soon as possible.
-            </p>
-            <p>Opening Hours: Open 24 hours</p>
-          </div>
+        </div>
+      </div>
+      <div>
+        <div class="payment-title">
+          <h2>Payment Options</h2>
+        </div>
+        <div class="text-description">
+          <p>We accept payments in AUD via:</p>
+          <ul>
+            <li><strong>Credit Card:</strong> Mastercard, Visa, AMEX</li>
+            <li><strong>Direct Bank Transfer:</strong></li>
+            <ul>
+              <li>BSB: <strong>062 829</strong></li>
+              <li>Account Number: <strong>1039 9119</strong></li>
+              <li>
+                Description:
+                <strong
+                  >Full Name of person ordering (to ensure orders and transfers
+                  match)</strong
+                >
+              </li>
+            </ul>
+            <li><strong>PayPal</strong></li>
+          </ul>
         </div>
       </div>
     </section>

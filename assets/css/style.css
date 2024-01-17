@@ -345,7 +345,6 @@ header {
 ============================= */
 /* END:: MOBILE MENU */
 
-
 .hero-content-info > div {
   border: 1px solid #ebebeb;
   border-radius: 5px;
@@ -489,9 +488,10 @@ header {
 .about {
   font-size: 15px;
 }
-.about nav{
+.breadcrumb-custom {
   padding: 25px 0;
   font-size: 14px;
+  font-weight: 700;
 }
 .about-title h2 {
   text-align: center;
@@ -559,7 +559,14 @@ header {
   font-weight: 700;
   font-size: 31px;
 }
-
+.accordion-header button {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px !important;
+}
+.accordion-body p {
+  font-size: 14px;
+}
 /* ================================================= */
 /* Return Policy :: START */
 /* ================================================= */
@@ -665,7 +672,7 @@ header {
 /* ================================================= */
 /* Blog :: START */
 /* ================================================= */
-.blog-title h2{
+.blog-title h2 {
   text-align: center;
   font-size: 30px;
   font-weight: 600;
@@ -687,4 +694,172 @@ header {
   width: 60px;
   height: 2px;
   background: var(--black);
+}
+.blog-btn button {
+  background: var(--black);
+  border-radius: 30px;
+  padding: 5px 15px;
+  font-size: 12px;
+  display: inline-block;
+  color: var(--white);
+  text-transform: uppercase;
+  border: none;
+  transition: all 0.5s;
+}
+.blog-btn button:hover {
+  background: var(--secondary);
+}
+.blog-content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 18px;
+  color: var(--dark-black);
+}
+.blog-content p {
+  font-size: 14px;
+  padding-bottom: 25px;
+}
+.blog-content a {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--black);
+  transition: all 0.5s;
+}
+.blog-content a:hover {
+  text-decoration: underline;
+  color: var(--secondary);
+}
+
+.blog-search {
+  position: relative;
+  border-radius: 30px;
+}
+.blog-search input {
+  border-radius: 30px;
+}
+.blog-search button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  border: none;
+  padding: 5px;
+  transform: translateY(-50%);
+  background: transparent;
+  color: var(--secondary);
+}
+.blog-search button i {
+  font-size: 18px;
+}
+
+.blog-categories ul li {
+  padding: 8px 0;
+}
+.blog-categories ul li a {
+  font-size: 14px;
+  color: var(--black);
+  transition: all 0.5s;
+}
+.blog-categories ul li a:hover {
+  text-decoration: underline;
+  color: var(--secondary);
+}
+.latest-blog .blog-content h6 {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.latest-blog .blog-content p {
+  font-size: 12px;
+}
+
+/* ================================================= */
+/* Testimonial :: START */
+/* ================================================= */
+.testimonial-title h2{
+  text-align: center;
+  margin: 20px auto;
+  font-weight: 700;
+  font-size: 31px;
+}
+
+.testimonials-items{
+  margin-top: 30px;
+}
+.testimonials-items ul li{
+ list-style: outside;
+}
+
+/* ================================================= */
+/* Contact :: START */
+/* ================================================= */
+.contact-title h2{
+  text-align: center;
+  margin: 20px auto;
+  font-weight: 700;
+  font-size: 31px;
+}
+
+.contact-form label.form-label{
+  font-size: 16px;
+  font-weight: 700;
+}
+.contact-form button {
+  background-color: var(--black);
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 55px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 30px;
+  transition: all 0.5s;
+}
+.contact-form button:hover {
+  background-color: var(--secondary);
+}
+
+/* ================================================= */
+/* Payment :: START */
+/* ================================================= */
+.payment-title h2{
+  text-align: center;
+  margin: 20px auto;
+  font-weight: 700;
+  font-size: 31px;
+}
+
+/* ================================================= */
+/* Shipping & Delivery :: START */
+/* ================================================= */
+.shipping-title h2{
+  text-align: center;
+  margin: 20px auto;
+  font-weight: 700;
+  font-size: 31px;
+}
+/* ================================================= */
+/* Customer Feedback :: START */
+/* ================================================= */
+.feedback-title h2{
+  text-align: center;
+  margin: 20px auto;
+  font-weight: 700;
+  font-size: 31px;
+}
+/* ================================================= */
+/* Privacy Policy :: START */
+/* ================================================= */
+.privacy-title h2{
+  text-align: center;
+  margin: 20px auto;
+  font-weight: 700;
+  font-size: 31px;
+}
+/* ================================================= */
+/* Terms of Use :: START */
+/* ================================================= */
+.terms-of-use-title h2{
+  text-align: center;
+  margin: 20px auto;
+  font-weight: 700;
+  font-size: 31px;
 }
