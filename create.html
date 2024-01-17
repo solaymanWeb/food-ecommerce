@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us</title>
+    <title>Sign In</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
@@ -214,48 +214,64 @@
       </div>
     </header>
 
-    <!-- Contact Us :: Description -->
-    <section class="contact">
-        <div class="container my-3">
+    <!-- Sign In :: Description -->
+    <section class="create-account my-3">
+      <div class="container">
+        <div class="create-account-form login-from">
+          <h3>Personal Information</h3>
+          <form>
             <div class="row">
-              <div class="col-md-12">
-                <h2 class="text-center">Get In Touch</h2>
-                <form>
-                  <div class="row">
-                    <div class="mb-3 col-12 col-md-6">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name">
-                      </div>
-                      <div class="mb-3 col-12 col-md-6">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email">
-                      </div>
-                  </div>
-                  <div class="mb-3">
-                    <label for="phone" class="form-label">Phone Number</label>
-                    <input type="tel" class="form-control" id="phone">
-                  </div>
-                  <div class="mb-3">
-                    <label for="message" class="form-label">What’s on your mind?</label>
-                    <textarea class="form-control" id="message" rows="4"></textarea>
-                  </div>
-                  <div class="mb-3">
-                    <label for="captcha" class="form-label">Please type the letters and numbers below</label>
-                    <!-- You can add your captcha input here -->
-                  </div>
-                  <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
-                </form>
-              </div>
-        
-              <div class="col-md-12">
-                <p>For any enquiries or further information, please contact Lebanese Food Emporium on 0424 451 115, or contact us by email <strong>sales@lebanesefoodemporium.com.au</strong> or via the form above and we will get back to you as soon as possible.</p>
-                <p>Opening Hours: Open 24 hours</p>
-                <p><strong>DO NOT SEND ANY EMAILS TO SALES@LEBANESEFOODEMPORIUM.COM.AU AS THE SERVER CURRENTLY IS NOT WORKING AND WE ARE NOT RECEIVING THOSE EMAILS!! THANK YOU!!</strong></p>
-                <p>For any enquiries or further information, please contact Lebanese Food Emporium on 0424 451 115, or contact us by email <strong>lebanesegroceries2u@gmail.com</strong> or via the form above, and we will get back to you as soon as possible.</p>
-                <p>Opening Hours: Open 24 hours</p>
+              <div class="col-12 col-md-3 form-required">First Name </div>
+              <div class="col-12 col-md-9">
+                <input type="text" class="form-control" />
               </div>
             </div>
-          </div>
+            <div class="row">
+              <div class="col-12 col-md-3 form-required">Last Name</div>
+              <div class="col-12 col-md-9">
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Sign Up for Newsletter
+                  </label>
+                </div>
+              </div>
+            </div>
+            <h3>Login Information</h3>
+            <div class="row">
+              <div class="col-12 col-md-3 form-required">Email</div>
+              <div class="col-12 col-md-9">
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-3 form-required">Password</div>
+              <div class="col-12 col-md-9">
+                <input type="text" class="form-control" />
+                <p class="pt-2">Password Strength: No Password</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-3 form-required">Confirm Password</div>
+              <div class="col-12 col-md-9">
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <button class="mt-5" type="submit">Create an Account</button>
+          </form>
+        </div>
+      </div>
     </section>
 
     <script src="assets/js/jquery-3.7.1.min.js"></script>

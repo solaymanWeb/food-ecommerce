@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us</title>
+    <title>Our Services</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
@@ -214,48 +214,121 @@
       </div>
     </header>
 
-    <!-- Contact Us :: Description -->
-    <section class="contact">
-        <div class="container my-3">
-            <div class="row">
-              <div class="col-md-12">
-                <h2 class="text-center">Get In Touch</h2>
-                <form>
-                  <div class="row">
-                    <div class="mb-3 col-12 col-md-6">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name">
-                      </div>
-                      <div class="mb-3 col-12 col-md-6">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email">
-                      </div>
-                  </div>
-                  <div class="mb-3">
-                    <label for="phone" class="form-label">Phone Number</label>
-                    <input type="tel" class="form-control" id="phone">
-                  </div>
-                  <div class="mb-3">
-                    <label for="message" class="form-label">What’s on your mind?</label>
-                    <textarea class="form-control" id="message" rows="4"></textarea>
-                  </div>
-                  <div class="mb-3">
-                    <label for="captcha" class="form-label">Please type the letters and numbers below</label>
-                    <!-- You can add your captcha input here -->
-                  </div>
-                  <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
-                </form>
+    <!-- About Us :: Description -->
+    <section class="faq container">
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Library</li>
+        </ol>
+      </nav>
+      <div class="row">
+        <div class="faq-image">
+          <img
+            src="assets/images/fa-question.jpg"
+            alt="frequently ask question"
+            class="img-fluid"
+          />
+        </div>
+        <div class="faq-content">
+          <div class="faq-title">
+            <h2>FAQ’s</h2>
+          </div>
+          <h4>Ordering of groceries</h4>
+          <div class="accordion my-4" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne"
+                  aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne"
+                >
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseOne"
+                class="accordion-collapse collapse show"
+              >
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It
+                  is shown by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also
+                  worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
               </div>
-        
-              <div class="col-md-12">
-                <p>For any enquiries or further information, please contact Lebanese Food Emporium on 0424 451 115, or contact us by email <strong>sales@lebanesefoodemporium.com.au</strong> or via the form above and we will get back to you as soon as possible.</p>
-                <p>Opening Hours: Open 24 hours</p>
-                <p><strong>DO NOT SEND ANY EMAILS TO SALES@LEBANESEFOODEMPORIUM.COM.AU AS THE SERVER CURRENTLY IS NOT WORKING AND WE ARE NOT RECEIVING THOSE EMAILS!! THANK YOU!!</strong></p>
-                <p>For any enquiries or further information, please contact Lebanese Food Emporium on 0424 451 115, or contact us by email <strong>lebanesegroceries2u@gmail.com</strong> or via the form above, and we will get back to you as soon as possible.</p>
-                <p>Opening Hours: Open 24 hours</p>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo"
+                >
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseTwo"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It
+                  is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also
+                  worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree"
+                >
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseThree"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It
+                  is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also
+                  worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
     </section>
 
     <script src="assets/js/jquery-3.7.1.min.js"></script>
